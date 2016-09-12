@@ -1,0 +1,23 @@
+Hello <b> World!</b> <br><br>
+
+<input id="myInput" type=text value="wow"> <br><br>
+
+<input type=button value="Run Wow" onclick="{
+
+	myOut = document.getElementById('myArea')
+	myIn = document.getElementById('myInput')
+	//alert(myIn.value)
+
+	for (myCount = 1; myCount <= 5; myCount++){
+		
+		myOut.innerHTML += 'Wow '
+		if (myCount == 3){
+			myOut.innerHTML+= 'cool '
+		}
+	}
+}"> <br><br>
+
+<div id="myArea" > Your output will go here </div> <br>
+<input type=button value="Show myOut" onclick="{
+	alert('The variable myOut contains ' + myOut.innerHTML)
+}">
