@@ -6,7 +6,8 @@
 			html{
 				font-family: "Comic Sans MS";
 				color: white;
-		background-image:url('gateway.jpeg');
+				background-image:url('gateway.jpeg');
+				text-align: center;
 			}
 		</style>
 	</head>
@@ -21,11 +22,13 @@ Hello <b> World!</b> <br><br>
 	myIn = document.getElementById('myInput')
 	//alert(myIn.value)
 
-	for (myCount = 1; myCount <= 5; myCount++){
+	for (myCount = 1; myCount <= 7; myCount++){
 
-		myOut.innerHTML += ' ' + myIn.value
+
 		if (myCount == 3 || myCount == 7){
 			myOut.innerHTML+= ' ' + 'cool '
+		} else {
+			myOut.innerHTML += ' ' + myIn.value
 		}
 	}
 }"> <br><br>
