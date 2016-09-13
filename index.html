@@ -14,7 +14,7 @@
 <body>
 Hello <b> World!</b> <br><br>
 
-<input id="myInput" type=text value="Your Text Here"> <br><br>
+<input id="myInput" type=text placeholder="Your Text Here"> <br><br>
 
 <input type=button value="Output" onclick="{
 
@@ -23,7 +23,7 @@ Hello <b> World!</b> <br><br>
 	//alert(myIn.value)
 
 	for (myCount = 1; myCount <= 7; myCount++){
-		myOut.innerhtml += ' ' + myCount + ':';
+		myOut.innerHTML += ' ' + myCount + ':';
 
 		if (myCount == 3 || myCount == 7){
 			myOut.innerHTML+= ' ' + 'cool <br>'
@@ -33,7 +33,7 @@ Hello <b> World!</b> <br><br>
 	}
 }"> <br><br>
 
-<div id="myArea" > Your output will go here </div> <br>
+<div id="myArea" > Your output will go here <br> </div> <br>
 <input type=button value="Show myOut" onclick="{
 	alert('The variable myOut contains ' + myOut.innerHTML)
 }">
