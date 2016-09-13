@@ -1,2 +1,2 @@
 # T1A01-app-EthanE
-App for Mr Ellis
+App for Game Development Course
