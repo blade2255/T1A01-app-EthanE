@@ -1,8 +1,9 @@
 var rockPaperScissors = function() {
     var userChoice = prompt("Do you choose rock, paper or scissors?");
     var computerChoice = Math.random();
-    var myOutput = document.getElementById("output");
+    var myOutput = document.getElementById("rpsOutput");
     var lucky = 1;
+    var luckyOutput = document.getElementById('luckyOutput')myOutput.innerHTML += "Your lucky number is: <br> " + lucky;
     if (computerChoice < 0.34) {
         computerChoice = "rock";
     } else if (computerChoice <= 0.67) {
@@ -42,5 +43,5 @@ var rockPaperScissors = function() {
  for(i=0;i<5;i++){
     lucky *= Math.random()*100;
   }
-  myOutput.innerHTML += "Your lucky number is: <br> " + lucky;
+  //myOutput.innerHTML += "Your lucky number is: <br> " + lucky;
 }
