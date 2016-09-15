@@ -1,42 +1,92 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<<<<<<< HEAD
 
 <head>
-	<title>TestTitlePleaseRemove</title>
+	<title>Index</title>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 	<style>
-		html {
-			font-family: "Comic Sans MS";
-			color: white;
+		body {
+			color: darkgrey;
+			font-family: 'Open Sans', sans-serif;
 			background-image: url('gateway.jpeg');
+			background-attachment: fixed;
+		}
+
+		h1 {
 			text-align: center;
+		}
+
+		#container {
+			width: 25%;
+			margin: 0 auto;
+			background: rgba(255, 255, 255, 0.2);
+			border-radius: 20px;
+			padding: 20px;
+		}
+
+		a {
+			color: darkgrey;
+			text-decoration: none;
+		}
+
+		a:visited {
+			color: darkgrey;
+			text-decoration: none;
 		}
 	</style>
 </head>
 
 <body>
-	Hello <b> World!</b> <br><br>
+	<div id="container">
+		<h1>Main Webpage</h1>
+		<br>
 
-	<input id="myInput" type=text placeholder="Your Text Here"> <br><br>
+		<ol type="1">
+			<li><a href="T1A01.html">T1A01</a></li>
+			<li><a href="T1A02.html">T1A02</a></li>
+=======
+	<head>
+		<title>Index</title>
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+		<style>
+			body {
+				color: darkgrey;
+				font-family: 'Open Sans', sans-serif;
+				background-image:url('gateway.jpeg');
+				background-attachment: fixed;
+			}
+			h1 {
+				text-align: center;
+			}
+			#container {
+				width: 30%;
+				margin: 0 auto;
+				background: rgba(255, 255, 255, 0.2);
+				border-radius: 30px;
+				padding: 30px;
+			}
+			a {
+				color: darkgrey;
+				text-decoration:none;
+			}
+			a:visited {
+				color: darkgrey;
+				text-decoration:none;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="container">
+			<h1>Main Webpage</h1>
+			<br>
 
-	<input type=button value="Output" onclick="{
-
-	myOut = document.getElementById('myArea')
-	myIn = document.getElementById('myInput')
-	//alert(myIn.value)
-
-	for (myCount = 1; myCount <= 7; myCount++){
-		myOut.innerHTML += ' ' + myCount + ':';
-
-		if (myCount == 3 || myCount == 7){
-			myOut.innerHTML+= ' ' + 'Cool <br>'
-		} else {
-			myOut.innerHTML += ' ' + myIn.value + '<br>'
-		}
-	}
-}"> <br><br>
-
-	<div id="myArea"> Your output will go here <br> </div> <br>
-	<input type=button value="Show myOut" onclick="{
-	alert('The variable myOut contains ' + myOut.innerHTML)
-}">
+			<ol type="1">
+				<li><a href="T1A01.html">T1A01</a></li>
+				<li><a href="T1A02.html">T1A02</a></li>
+>>>>>>> origin/master
+			</ul>
+	</div>
 </body>
+
+</html>
