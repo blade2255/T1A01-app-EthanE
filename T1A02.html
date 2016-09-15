@@ -3,21 +3,21 @@
 
 <head>
     <title>T1A02</title>
-    <style>
+      <style>
         html {
             font-family: "Comic Sans MS";
             color: white;
             background-image: url('gateway.jpeg');
             text-align: center;
         }
-    </style>
-        <script type="text/javascript">
-        var rockPaperScissors = function() {
+      </style>
+    <script type="text/javascript">
+            function rockPaperScissors() {
             var userChoice = prompt("Do you choose rock, paper or scissors?");
             var computerChoice = Math.random();
             var myOutput = document.getElementById("rpsOutput");
             var lucky = 1;
-            var luckyOutput = document.getElementById('luckyOutput')myOutput.innerHTML += "Your lucky number is: <br> " + lucky;
+            var luckyOutput = document.getElementById('luckyOutput');
             if (computerChoice < 0.34) {
                 computerChoice = "rock";
             } else if (computerChoice <= 0.67) {
@@ -57,9 +57,9 @@
          for(i=0;i<5;i++){
             lucky *= Math.random()*100;
           }
-          //myOutput.innerHTML += "Your lucky number is: <br> " + lucky;
+          luckyOutput.innerHTML = "Your lucky number is: <br> " + lucky;
         }
-        </script>
+    </script>
 
 </head>
 
