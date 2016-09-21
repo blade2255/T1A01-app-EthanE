@@ -12,5 +12,4 @@
     <author href="https://build.phonegap.com" email="support@phonegap.com">
         Ethan Erickson
     </author>
-    <plugin name="com.admob.google" spec="4.0.8" source="pgb" />
 </widget>
