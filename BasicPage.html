@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tester Webpage</title>
+<title>Basic-Page</title>
+	<style>
+		html {
+			font-family: "Comic Sans MS";
+			color: white;
+			background-image: url('gateway.jpeg');
+		}
+  </style>
+</head>
+<script type="text/javascript">
+function moveChar(id, x, y) {
+          var myX = parseInt(document.getElementById(id).style.left);
+          document.getElementById(id).style.left = (myX + x) + 'px';
+          var myY = parseInt(document.getElementById(id).style.top);
+          document.getElementById(id).style.top = (myY + y) + 'px';
+      }
+</script>
+<body>
+    <div id= "myQuestion">?</div>
+    <input type="button" value="Click me" onclick="{document.getElementById('myQuestion').innerHTML ='Hello World'
+    }">
+</body>
+</html>
