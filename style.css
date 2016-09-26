@@ -1,0 +1,23 @@
+    body {
+        color: darkgrey;
+        font-family: 'Open Sans', sans-serif;
+        background-image: url('gateway.jpeg');
+        background-attachment: fixed;
+        text-align: center;
+    }
+    .mobile{
+      color: green;
+    }
+    .inactive{
+      color: red;
+      pointer-events: none;
+      cursor: default;
+      text-decoration: none;
+    }
+    .active{
+      color: orange
+    }
+    ol {
+    padding: 0;
+    list-style-type: none;
+}
