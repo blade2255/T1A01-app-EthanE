@@ -2,4 +2,4 @@
 App for Game Development Course
 
 
-![QRy.png](QR.png "My PhoneGap build")
+![QR.png](QR.png "My PhoneGap build")
