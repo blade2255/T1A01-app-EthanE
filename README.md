@@ -1,4 +1,4 @@
 # T1A01-app-EthanE
 App for Game Development Course
 
-![QR.png](QR.png "My PhoneGap build")
+![EthansIndex.png](EthansIndex.png "My PhoneGap build")
